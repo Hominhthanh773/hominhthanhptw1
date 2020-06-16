@@ -1,0 +1,49 @@
+.type-1514 .container .row .col-md-4 .your {
+  padding-left: 8%;
+  background: #f5f5f5; }
+  .type-1514 .container .row .col-md-4 .your .ax {
+    color: #c6c6c6;
+    font-size: 13px; }
+  .type-1514 .container .row .col-md-4 .your .bx {
+    color: #c6c6c6; }
+  .type-1514 .container .row .col-md-4 .your .sub {
+    color: #c6c6c6; }
+  .type-1514 .container .row .col-md-4 .your .cx {
+    font-weight: bold; }
+  .type-1514 .container .row .col-md-4 .your .make {
+    font-size: 13px;
+    color: #ccc8c4; }
+  .type-1514 .container .row .col-md-4 .your .abc {
+    font-weight: bold; }
+  .type-1514 .container .row .col-md-4 .your .term {
+    color: #bdbebf; }
+  .type-1514 .container .row .col-md-4 .your .term:hover {
+    text-decoration: none; }
+  .type-1514 .container .row .col-md-4 .your .iha {
+    font-size: 13px;
+    color: #ced5df; }
+  .type-1514 .container .row .col-md-4 .your .s1 {
+    font-size: 15px;
+    color: #8a8a8a;
+    font-weight: bold; }
+    .type-1514 .container .row .col-md-4 .your .s1 .so {
+      color: #b4b7c2; }
+  .type-1514 .container .row .col-md-4 .your .button {
+    border: none;
+    color: white;
+    padding: 6px 0px;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer; }
+  .type-1514 .container .row .col-md-4 .your .button {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #000; }
+  .type-1514 .container .row .col-md-4 .your .button:hover {
+    background-color: #000;
+    color: white; }
