@@ -7,7 +7,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 
-    require_once 'scss.inc.php';
+    require_once 'libs/scss.inc.php';
 
     use ScssPhp\ScssPhp\Compiler;
 
@@ -30,7 +30,6 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="<?php echo $url_path ?>/css/1395.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet"/>
-    <link href="<?php echo $url_path ?>/family-font/Roboto-Black.ttf" rel="stylesheet"/>
     <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="<?php echo $url_path ?>/js/scripts.js"></script>
     <title>1395</title>

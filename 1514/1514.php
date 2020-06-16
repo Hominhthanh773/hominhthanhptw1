@@ -15,9 +15,9 @@ $url_path = str_replace('\\', '/', $url_path);
 
     $scss->setImportPaths('sass/');
 
-    $styles = $scss->compile('@import "1478.scss";');
+    $styles = $scss->compile('@import "1514.scss";');
 
-    $css = fopen('css/1478.css','w');
+    $css = fopen('css/1514.css','w');
     
     fwrite($css,$styles);
 ?>
@@ -27,16 +27,16 @@ $url_path = str_replace('\\', '/', $url_path);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./css/styles.css"> -->
-    <link href="<?php echo $url_path ?>/css/1478.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/1514.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet"/>
     <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="<?php echo $url_path ?>/js/scripts.js"></script>
-    <title>1478</title>
+    <title>1514</title>
 </head>
 <body>
    <?php
-     include "./1478-content.php";
+     include "./1514-content.php";
    ?>
 </body>
 </html>
