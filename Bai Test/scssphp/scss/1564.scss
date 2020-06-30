@@ -1,0 +1,160 @@
+$color-border: #000;
+$color-icon: #fff;
+$media-bg: #f31231;
+.type-1564{
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	.navbar-header{
+		.navbar-brand{
+			font-size: 1rem;
+			color: white;
+		}
+
+		.hv-text-main{
+			border-top: 1px solid white;
+			color: white;
+		}
+	}
+	.navbar{
+		margin:0px auto;
+		
+		padding-right:0;
+		padding-left:0;
+		padding-top:10px;
+		padding-bottom:10px;
+
+		.container-fluid{
+                        background-color: #20c997;
+			 padding-right: 56px;
+
+			padding-left:0;
+			margin-right:0;
+			margin-left:0; 
+
+			.navbar-header{
+			margin-right:-10px;
+				.hv-text:hover{
+					color:$color-border;
+					border-top: 1px solid $color-border;
+						
+				}
+
+				.hv-icon:hover{
+					border-radius:50%;
+					background:$color-border;
+					color:$color-icon;
+				}
+
+				.hv-icon{
+					margin-right:5px;
+					.fa-w{
+						text-align:center;
+						width:30px;
+						height:20px;
+					}
+				}
+			}	
+		}
+	}
+}
+
+/* Dành cho máy tính bảng */
+@media all and (max-width: 768px) {
+	.type-1564{
+		div:nth-child(3) a:nth-child(even){
+			font-size: 80%; 
+		}
+		div:nth-child(3) a:nth-child(odd){
+			font-size: 80%; 
+		}
+		div:nth-child(1) a:nth-child(odd){
+			font-size: 80%; 
+		}
+		div:nth-child(1) a:nth-child(even){
+			font-size: 80%; 
+		}
+		div:nth-child(2){
+			width: 15%;	
+		}		
+	}	
+}
+
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+ 	.type-1564{
+		div:nth-child(3) a:nth-child(even){
+			font-size: 75%; 	
+		}
+		div:nth-child(3) a:nth-child(odd){
+			font-size: 75%; 	
+		}
+		div:nth-child(1) a:nth-child(odd){
+			font-size: 75%; 
+		}
+		div:nth-child(1) a:nth-child(even){
+			font-size: 75%; 
+		}
+		div:nth-child(2){
+			width: 30%;
+			margin-left: 37%;
+			padding: 2% 0;	
+		}
+		div:nth-child(3){
+			margin-left: 8%;	
+		}	
+		div:nth-child(1){
+			margin-left: 12%;
+		}	
+	}	
+}
+
+
+
